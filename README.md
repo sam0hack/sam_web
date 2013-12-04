@@ -21,8 +21,9 @@ Requirements
 
 Apache server
 Mysql
-
+<br>
 release notes
+<br>
 Sam_web V-beta.1.0 
 <br>
 <a href="https://github.com/codex8/sam_web/archive/V-beta.1.0.zip">Download zip here</a>
@@ -30,6 +31,7 @@ Sam_web V-beta.1.0
 <a href="https://github.com/codex8/sam_web/archive/V-beta.1.0.tar.gz">Download tar.gz here</a>
 <br>
 <a href="github-windows://openRepo/https://github.com/codex8/sam_web">Clone In Desktop</a>
+<br>
 Developer 
 <br>
 <a href="https://www.facebook.com/sam0hack">Facebook</a>
