@@ -23,5 +23,7 @@ Apache server
 Mysql
 
 Developer 
+<br>
 <a href="https://www.facebook.com/sam0hack">Facebook</a>
-https://twitter.com/sam_codex8
+<br>
+<a href="https://twitter.com/sam_codex8">Twitter</a>
