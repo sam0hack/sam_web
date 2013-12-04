@@ -1,0 +1,575 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+body {
+	margin:0px;
+	padding:0px;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height: 1.43;
+	border-top: 4px solid #242840;
+}
+ul {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+li {
+	float:left;
+}
+a {
+	text-decoration:none;
+	color:#77797F;
+}
+.cls {
+	clear:both;
+}
+p {
+	margin:0px;
+	padding:0px;
+	text-align:justify;
+	line-height:20px;
+}
+#main_container-new {
+	margin:auto;
+	padding:0px;
+	width:989px;
+	background:url(../images/bg-top.jpg) repeat left top;
+	
+}
+.head_top {
+	height:100px;
+	border-bottom: 1px solid lightgray;
+}
+.head_top #lhs_side_logo {
+	height:50px;
+}
+.head_top #rhs_side {
+	position:relative;
+	top:4px;
+	height:50px;
+	text-align:left;
+	margin-bottom:30px;
+}
+#current_home {
+	border-bottom:4px solid #0000CC;
+}
+#coolMenu, #coolMenu ul {
+	margin-left:270px;
+	list-style: none;
+}
+#coolMenu {
+	float: left;
+}
+#coolMenu > li {
+	float: left;
+}
+#coolMenu li a {
+	height: 2em;
+	line-height: 2em;
+	padding: 0 1.0em;
+	text-decoration: none;
+	margin-right:1px;
+}
+#coolMenu ul {
+	position: absolute;
+	display: none;
+	z-index: 999;
+}
+#coolMenu ul li a {
+	width:177px;
+	float:left;
+	margin-left:0px;
+	padding-left:10px;
+	color:#FFFFFF;
+	border-bottom: 1px solid lightgray;
+}
+#coolMenu li:hover ul {
+	display:block;
+	width:200px;
+	font-size: 13px;
+	margin:0px 0px 0px 0px;
+	line-height:15px;
+	text-align:left;
+	background:url(../images/bg-top12.jpg);
+}
+#coolMenu li:hover ul li:hover {
+	background:#6AB5FF;
+	width:100%;
+	color:#000000;
+}
+.slide-top {
+	position: relative;
+	height: 495px;
+	width:705px;
+	float:left;
+}
+#main_container-new #slides {
+		margin-top:25px;
+	/*margin:0px;
+	padding:0px;
+	
+	height: 400px;
+	position:absolute;
+	z-index:1;*/
+}
+#main_container-new #slides #lhs_content {
+	background:#24273B;
+	width: 280px;
+	padding:10px 10px;
+	height:380px;
+	float:left;
+	line-height:25px;
+	overflow:hidden;
+	color:#FFFFFF;
+	font-size:13px;
+}
+#main_container-new #slides #lhs_content p {
+	line-height:23px;
+	font-size:13px;
+	font-weight:500;
+}
+#main_container-new #slides #rhs_img {
+	float:right;
+	width:400px;
+	overflow:hidden;
+	background:url(../images/bestclinical%20photo.jpg) no-repeat;
+	height:400px;
+}
+#main_container-new #slides1 {
+	margin:0px;
+	padding:0px;
+	margin-top:40px;
+	position:absolute;
+	z-index:2;
+}
+#main_container-new #slides1 #lhs_content {
+	background:#24273B;
+	width: 260px;
+	padding:10px 20px;
+	height:380px;
+	float:left;
+	line-height:20px;
+	overflow:hidden;
+	color:#FFFFFF;
+}
+#main_container-new #slides1 #lhs_content p {
+	line-height:25px;
+	font-size:13px;
+	font-weight:600;
+}
+#main_container-new #slides1 #rhs_img {
+	float:right;
+	width:400px;
+	overflow:hidden;
+	background:url(../images/bestclinicalphoto2.jpg) no-repeat;
+	height:400px;
+}
+.slide-top #right-slide_top {
+	float:right;
+	width:400px;
+	height:400px;
+	position:relative;
+}
+#aboutus_photo {
+	margin:0px;
+	padding:0px;
+	background:#000000;
+}
+.uniqe {
+	width:96%;
+	border-top:1px solid #325896;
+	border-bottom:4px solid #325896;
+	padding:10px 2%;
+	margin-bottom:8px;
+	height:87px;
+	overflow:hidden;
+}
+.uniqe:hover {
+	background:#CCCCCC;
+}
+.uniqe h1 {
+	margin:0px;
+	padding:0px;
+	font-size:14px;
+}
+#clinic_txt h1 {
+	font-size: 13px;
+	font-weight: bolder;
+}
+#new_look h1 {
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+}
+#new_look {
+	text-align:center;
+}
+.book-an_app {
+	margin:0px;
+	padding:0px;
+	text-align:center;
+	padding:20px 0px;
+}
+.book-an_app span a {
+	background:#325896;
+	color:#FFFFFF;
+	font-size:14px;
+	font-weight:bold;
+	padding:10px 0px;
+	text-decoration:none;
+	width:56%;
+	display:block;
+	border:1px solid #FFFFFF;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-o-border-radius:5px;
+}
+#gallery_ph {
+	margin:0px;
+	padding:0px;
+	height:300px;
+}
+#gallery_ph ul {
+	list-style:none;
+}
+#gallery_ph ul li {
+	float:left;
+}
+#gallery_ph ul li img {
+	width:220px;
+	height:250px;
+}
+#gallery_ph ul li img#sec {
+	margin: 0px 26px;
+}
+#hair_trans_blog {
+	margin:0px;
+	padding:0px;
+}
+#hair_trans_blog h1 {
+	text-align:left;
+	font-size:16px;
+	font-weight:bold;
+}
+#hair_trans_blog .blog_container {
+	padding:5px 15px;
+	float:left;
+	width:430px;
+	text-align:justify;
+	line-height:20px;
+}
+#hair_trans_blog .blog_container span#fnt {
+	font-size:11px;
+}
+#hair_trans_blog .blog_container a {
+	color:#433ADA;
+	float:right;
+}
+#bottom {
+	margin:0px;
+	padding:0px;
+	width:100%;
+	min-height:300px;
+	background:#24273B;
+}
+#bottom .top_menu {
+	width:989px;
+	margin:auto;
+	padding:10px 0px;
+	border-bottom:thin solid #d3d3d3;
+}
+#bottom .top_menu #verti_bar {
+	float:left;
+	width:230px;
+	margin-right:15px;
+}
+#bottom .top_menu #verti_bar table#col {
+	color:#FFFFFF;
+}
+#bottom .top_menu #verti_bar a:hover {
+	text-decoration: underline;
+}
+#bottom .top_menu #verti_bar h3 {
+	padding:5px;
+	border-bottom:1px solid lightgray;
+	font-size:14px;
+	font-weight:bold;
+}
+#bottom #horizontal_menu {
+	width:989px;
+	margin:auto;
+	padding:20px 0px;
+}
+#bottom #horizontal_menu .menubar_hz {
+	float:left;
+	width:400px;
+}
+#bottom #horizontal_menu .copy_right {
+	float:right;
+}
+#why {
+	display:none;
+	width:250px;
+	height:40px;
+	border:1px solid lightgray;
+	text-decoration:underline;
+	margin-left:290px;
+	padding:10px;
+	background:#24273B;
+}
+#why a {
+	color:#FFFFFF;
+}
+#aboutus-slide {
+	display:none;
+	padding:30px 0px;
+}
+#aboutus-slide p {
+	line-height:25px;
+}
+#prov_adv1 {
+	display:none;
+	padding:30px 0px;
+	line-height:25px;
+	text-align:justify;
+}
+#prov_adv1 h2 {
+	color:rgba(129, 108, 108, 0.99);
+}
+#single_pass1 {
+	display:none;
+	padding:30px 0px;
+	line-height:25px;
+	text-align:justify;
+}
+#single_pass1 h2 {
+	color:rgba(129, 108, 108, 0.99);
+}
+#feather_touch1 {
+	display:none;
+	padding:30px 0px;
+	line-height:25px;
+	text-align:justify;
+}
+#feather_touch1 h2 {
+	color:rgba(129, 108, 108, 0.99);
+}
+#rapid_grow1 {
+	display:none;
+	padding:30px 0px;
+	line-height:25px;
+	text-align:justify;
+}
+#rapid_grow1 h2 {
+	color:rgba(129, 108, 108, 0.99);
+}
+#pricing1 {
+	display:none;
+	padding:30px 20px;
+	text-align:justify;
+	line-height:30px;
+}
+#pricing1 h2 {
+	color:rgba(129, 108, 108, 0.99);
+}
+#folli_surgery1 {
+	display:none;
+	padding:30px 0px;
+	line-height:25px;
+	text-align:justify;
+}
+#folli_surgery1 h2 {
+	color:rgba(129, 108, 108, 0.99);
+}
+#folli_ext1 {
+	display:none;
+	padding:30px 0px;
+	line-height:25px;
+	text-align:justify;
+}
+#folli_ext1 h2 {
+	color:rgba(129, 108, 108, 0.99);
+}
+#body_ext1 {
+	display:none;
+	padding:30px 0px;
+	line-height:25px;
+	text-align:justify;
+}
+#body_ext1 h2 {
+	color:rgba(129, 108, 108, 0.99);
+}
+#facial_trans1 {
+	display:none;
+	padding:30px 0px;
+	line-height:25px;
+	text-align:justify;
+}
+#facial_trans1 h2 {
+	color:rgba(129, 108, 108, 0.99);
+}
+#repair_trans1 {
+	display:none;
+	padding:30px 0px;
+	line-height:25px;
+	text-align:justify;
+}
+#repair_trans1 h2 {
+	color:rgba(129, 108, 108, 0.99);
+}
+#navigation {
+	font-size:14px;
+	font-weight:700;
+}
+#navigation ul {
+	margin:0px;
+	padding:0px;
+}
+#navigation li {
+	list-style: none;
+	background:#0099cc;
+	width:240px;
+	padding:5px;
+	margin-bottom:1px;
+	-webkit-box-shadow:inset 10px 0px 40px #6AB5FF;
+	-moz-box-shadow: inset 10px 0px 40px #6AB5FF;
+	-o-box-shadow: inset 10px 0px 40px #6AB5FF;
+}
+ul.top-level {
+}
+ul.top-level li {
+	border-top:1px solid lightgray;
+}
+#navigation a {
+	color:#ffffff;
+	cursor: pointer;
+	display:block;
+	height:25px;
+	line-height: 25px;
+	width:100%;
+}
+#navigation li a:hover {
+	text-decoration:underline;
+	color:#E2E2E2;
+	width:200px;
+	display:block;
+}
+.hair_trans_div {
+	padding:0px;
+	margin-bottom:20px;
+	margin-top:20px;
+	background:url(../images/74420211.jpg) repeat;
+}
+.hair_trans_div #lft_hair {
+	float:left;
+	width:250px;
+}
+.hair_trans_div #rht_hair {
+	float:right;
+	width:729px;
+}
+.hair_trans_div #rht_hair #lft_about_menu {
+	float:left;
+	width:479px;
+	color:#330099;
+	font-size:13px;
+	margin:0px 2px;
+	padding:0px 3px;
+	-webkit-box-shadow:inset 400px 0px 400px #6ACFFF;
+	-moz-box-shadow: inset 400px 0px 400px #6ACFFF;
+	-o-box-shadow: inset 400px 0px 400px #6ACFFF;
+	min-height:400px;
+}
+.hair_trans_div #rht_hair #rht_about_menu {
+	float:right;
+	width:250px;
+}
+.hair_trans_div #rht_hair #rht_about_menu img {
+	border:4px solid #C1E0FF;
+}
+.round_photo {
+	border-radius: 80px/80px;
+	-moz-border-radius: 80px/80px;
+	-webkit-border-radius: 80px 80px;
+	-o-border-radius: 80px 80px;
+	border:solid 1px lightgray;
+	width:80px;
+	height:80px;
+}
+#slide_up, #button_slide {
+	margin:0px;
+	padding:0px;
+	background:#FF0000;
+	color:#FFFFFF;
+	width:40px;
+}
+#slide_up {
+	margin:0px;
+	padding:0px;
+	width:300px;
+	height:300px;
+	display:none;
+	background:#FF0000;
+	z-index:52;
+}
+
+
+/*...................................................Nishant chauhan new clinic webpage css............................................................................*/
+
+.head_top #entmumabi_logo{float:left; width:200px;}
+.head_top #rht_menubar{float:right; width:780px;}
+ /*style="margin:0px; padding:0px; padding-top:75px;"*/
+ 
+ #coolMenu1{padding-top:75px;}
+ #coolMenu1 ul {
+	margin-left:0px;
+	list-style: none;
+	
+}
+#coolMenu1 {
+	float: left;
+}
+#coolMenu1 > li {
+	float: left;
+}
+#coolMenu1 li a {
+	height: 2em;
+	line-height: 2em;
+	padding: 0 1.0em;
+	text-decoration: none;
+	margin-right:1px;
+}
+#coolMenu1 ul {
+	position: absolute;
+	display: none;
+	z-index: 999;
+}
+#coolMenu1 ul li a {
+	width:177px;
+	float:left;
+	margin-left:0px;
+	padding-left:10px;
+	color:#FFFFFF;
+	border-bottom: 1px solid lightgray;
+}
+#coolMenu1 li:hover ul {
+	display:block;
+	width:200px;
+	font-size: 13px;
+	margin:0px 0px 0px 0px;
+	line-height:15px;
+	text-align:left;
+	background:url(../images/bg-top12.jpg);
+}
+#coolMenu1 li:hover ul li:hover {
+	background:#6AB5FF;
+	width:100%;
+	color:#000000;
+}
+
+.galery{margin:0px; padding:0px;}
+.galery li{width:235px; display:inline; overflow:hidden;}
