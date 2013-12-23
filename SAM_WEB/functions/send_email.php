@@ -9,11 +9,11 @@ $mail = new PHPMailer;
 $mail->IsSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtpout.secureserver.net';  // Specify main and backup server
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'elvish@galaxylifecare.info';                            // SMTP username
-$mail->Password = 'elvish@qwerty';                           // SMTP password
+$mail->Username = 'User name';                            // SMTP username
+$mail->Password = 'Password';                           // SMTP password
 //$mail->SMTPSecure = 'tls';                            // Enable encryption, 'ssl' also accepted
 
-$mail->From = 'elvish@galaxylifecare.info';
+$mail->From = 'Your Email';
 $mail->FromName = 'Verification';
 $mail->AddAddress($email);  // Add a recipient
 //$mail->AddAddress('ellen@example.com');               // Name is optional
