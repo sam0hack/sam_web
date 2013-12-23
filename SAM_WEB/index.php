@@ -126,7 +126,7 @@ $(document).ready(function(){
        </div>
         </a> </div>
       <div style="margin:10px 0px 0px 0px; padding:5px;"> 
-          <b>Follow Us</b> &nbsp;&nbsp;&nbsp; <a target="_blank" href="<?php $twitter=  sns('twitter'); echo $twitter['twitter']; ?>"> <img src="admin/images/tw.png" width="20" height="22"  alt="twitter" title="twitter"/> </a> <a target="_blank" href="<?php $facebook=  sns('facebook'); echo $facebook['facebook']; ?>"><img src="admin//images/fb.png" width="20" height="22" alt="facebook" title="facebook" /></a> </div>
+          <b>Follow Us</b> &nbsp;&nbsp;&nbsp; <a target="_blank" href="<?php $twitter=  sns('twitter'); echo $twitter['twitter']; ?>"> <img src="admin/images/tw.png" width="20" height="22"  alt="twitter" title="twitter"/> </a> <a target="_blank" href="<?php $facebook=  sns('facebook'); echo $facebook['facebook']; ?>"><img src="admin//images/fb.png" width="20" height="22" alt="facebook" title="facebook" /></a> <a target="_blank" href="<?php $twitter=  sns('google_plus'); echo $twitter['google_plus']; ?>"> <img src="images/google_plus.png" width="20" height="22"  alt="Google Plus" title="Google Plus"/> </a> <a target="_blank" href="<?php $twitter=  sns('linked_in'); echo $twitter['linked_in']; ?>"> <img src="images/linkedin.png" width="20" height="22"  alt="Linked In" title="Linked In"/> </a> </div>
       <div style="border-top:4px solid #325896; margin-top:13px;">
 <!--       		<img src="../images/provelusmap.png" width="240" height="210" />-->
 

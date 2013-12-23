@@ -10,6 +10,8 @@ require 'condb.php';
 <hr>
 <p>Facebook<input type="text" name="fb"></p>
 <p>Twitter<input type="text" name="tw"></p>
+<p>Google plus<input type="text" name="gp"></p>
+<p>Linked in<input type="text" name="ln"></p>
 <input type="submit" name="sub" value="Submit">
 </form>
 <br>
@@ -27,6 +29,8 @@ if($_POST['sub'])
 {
     $facebook=$_POST['fb'];
     $twitter=$_POST['tw'];
+    $google_plus=$_POST['gp'];
+    $linked_in=$_POST['ln'];
    if(!empty($facebook))
    {
        mysql_query("update sns set facebook='$facebook' where id=1");   
@@ -35,6 +39,16 @@ if($_POST['sub'])
    if(!empty($twitter))
    {
     mysql_query("update sns set twitter='$twitter' where id=1");   
+   
+   }
+   if(!empty($google_plus))
+   {
+    mysql_query("update sns set google_plus='$google_plus' where id=1");   
+   
+   }
+   if(!empty($linked_in))
+   {
+    mysql_query("update sns set linked_in='$linked_in' where id=1");   
    
    }
 }

@@ -71,7 +71,7 @@ function footer() {
 
 //re-que
 function que() {
-	$result=$mysql=mysql_query("select * from ask_me ");
+	$result=$mysql=mysql_query("select * from ask_me where verify='1' ORDER BY `question_id` DESC ");
 
 	return $result;
 
@@ -193,6 +193,18 @@ function sns($param) {
     if($param=='facebook')
     {
  $sql=  mysql_query("select facebook from sns");
+$f=  mysql_fetch_array($sql);  
+return $f;
+    }
+    if($param=='google_plus')
+    {
+ $sql=  mysql_query("select google_plus from sns");
+$f=  mysql_fetch_array($sql);  
+return $f;
+    }
+    if($param=='linked_in')
+    {
+ $sql=  mysql_query("select linked_in from sns");
 $f=  mysql_fetch_array($sql);  
 return $f;
     }

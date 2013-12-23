@@ -3,7 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/sam_cms-11-22-13/SAM_CMS_2.0/installer/sql.php</file>
+            <file>file:/opt/lampp/htdocs/github/sam_web/SAM_WEB/ask_form.php</file>
+            <file>file:/opt/lampp/htdocs/github/sam_web/SAM_WEB/functions/big_query.php</file>
+            <file>file:/opt/lampp/htdocs/github/sam_web/SAM_WEB/popup.php</file>
+            <file>file:/opt/lampp/htdocs/github/sam_web/SAM_WEB/ask.php</file>
+            <file>file:/opt/lampp/htdocs/github/sam_web/SAM_WEB/functions/passwordgen.php</file>
         </group>
     </open-files>
 </project-private>

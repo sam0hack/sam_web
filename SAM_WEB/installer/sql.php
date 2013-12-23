@@ -51,6 +51,7 @@ $ans="CREATE TABLE IF NOT EXISTS `answers` (
   `user` varchar(50) NOT NULL,
   `question_id` int(11) NOT NULL,
   `last_reply` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `verify` tinyint(4) NOT NULL,
   PRIMARY KEY (`answer_id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3" ;
 
@@ -60,11 +61,11 @@ mysql_query($ans);
 //-- Dumping data for table `answers`
 //--
 
-$ansi="INSERT INTO `answers` (`answer_id`, `answer`, `user`, `question_id`, `last_reply`) VALUES
-(1, 'how r u', '', 1, '2013-11-19 09:09:15'),
-(2, 'f9', '', 1, '2013-11-19 09:09:31')";
-
-mysql_query($ansi);
+//$ansi="INSERT INTO `answers` (`answer_id`, `answer`, `user`, `question_id`, `last_reply`) VALUES
+//(1, 'how r u', '', 1, '2013-11-19 09:09:15'),
+//(2, 'f9', '', 1, '2013-11-19 09:09:31')";
+//
+//mysql_query($ansi);
 
 //
 //-- --------------------------------------------------------
@@ -203,6 +204,7 @@ $ask="CREATE TABLE IF NOT EXISTS `ask_me` (
   `user_email` varchar(50) NOT NULL,
   `question_title` varchar(100) NOT NULL,
   `city` varchar(20) NOT NULL,
+  `verify` tinyint(4) NOT NULL,
   PRIMARY KEY (`question_id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ";
 
@@ -211,9 +213,9 @@ mysql_query($ask);
 //-- Dumping data for table `ask_me`
 //--
 
-$aski="INSERT INTO `ask_me` (`question_id`, `question`, `user_email`, `question_title`, `city`) VALUES
-(1, 'hi..', '', 'hello', '')";
-mysql_query($aski);
+//$aski="INSERT INTO `ask_me` (`question_id`, `question`, `user_email`, `question_title`, `city`) VALUES
+//(1, 'hi..', '', 'hello', '')";
+//mysql_query($aski);
 //
 //-- --------------------------------------------------------
 //
@@ -653,6 +655,8 @@ $sns="CREATE TABLE IF NOT EXISTS `sns` (
   `facebook` varchar(200) NOT NULL,
   `twitter` varchar(200) NOT NULL,
   `twit` longtext NOT NULL,
+  `google_plus` varchar(150) NOT NULL,
+  `linked_in` varchar(150) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1";
 mysql_query($sns);
@@ -660,8 +664,8 @@ mysql_query($sns);
 //-- Dumping data for table `sns`
 //--
 
-$snsi="INSERT INTO `sns` (`id`, `facebook`, `twitter`, `twit`) VALUES
-(1, 'https://www.facebook.com/sam0hack', 'https://twitter.com/sam_codex8', 'PGEgY2xhc3M9InR3aXR0ZXItdGltZWxpbmUiIGhyZWY9Imh0dHBzOi8vdHdpdHRlci5jb20vc2FtX2NvZGV4OCIgZGF0YS13aWRnZXQtaWQ9IjQwNTYyMTcwMzIxODE4ODI4OCI+VHdlZXRzIGJ5IEBzYW1fY29kZXg4PC9hPiA8c2NyaXB0PiFmdW5jdGlvbihkLHMsaWQpe3ZhciBqcyxmanM9ZC5nZXRFbGVtZW50c0J5VGFnTmFtZShzKVswXSxwPS9eaHR0cDovLnRlc3QoZC5sb2NhdGlvbik/J2h0dHAnOidodHRwcyc7aWYoIWQuZ2V0RWxlbWVudEJ5SWQoaWQpKXtqcz1kLmNyZWF0ZUVsZW1lbnQocyk7anMuaWQ9aWQ7anMuc3JjPXArIjovL3BsYXRmb3JtLnR3aXR0ZXIuY29tL3dpZGdldHMuanMiO2Zqcy5wYXJlbnROb2RlLmluc2VydEJlZm9yZShqcyxmanMpO319KGRvY3VtZW50LCJzY3JpcHQiLCJ0d2l0dGVyLXdqcyIpOzwvc2NyaXB0Pg==')";
+$snsi="INSERT INTO `sns` (`id`, `facebook`, `twitter`, `twit`, `google_plus`, `linked_in`) VALUES
+(1, 'https://www.facebook.com/sam0hack', 'https://twitter.com/sam_codex8', 'PGEgY2xhc3M9InR3aXR0ZXItdGltZWxpbmUiIGhyZWY9Imh0dHBzOi8vdHdpdHRlci5jb20vc2FtX2NvZGV4OCIgZGF0YS13aWRnZXQtaWQ9IjQwNTYyMTcwMzIxODE4ODI4OCI+VHdlZXRzIGJ5IEBzYW1fY29kZXg4PC9hPiA8c2NyaXB0PiFmdW5jdGlvbihkLHMsaWQpe3ZhciBqcyxmanM9ZC5nZXRFbGVtZW50c0J5VGFnTmFtZShzKVswXSxwPS9eaHR0cDovLnRlc3QoZC5sb2NhdGlvbik/J2h0dHAnOidodHRwcyc7aWYoIWQuZ2V0RWxlbWVudEJ5SWQoaWQpKXtqcz1kLmNyZWF0ZUVsZW1lbnQocyk7anMuaWQ9aWQ7anMuc3JjPXArIjovL3BsYXRmb3JtLnR3aXR0ZXIuY29tL3dpZGdldHMuanMiO2Zqcy5wYXJlbnROb2RlLmluc2VydEJlZm9yZShqcyxmanMpO319KGRvY3VtZW50LCJzY3JpcHQiLCJ0d2l0dGVyLXdqcyIpOzwvc2NyaXB0Pg==', 'http://google.co.in/', 'http://linkedin.com/')";
 mysql_query($snsi);
 //-- --------------------------------------------------------
 //

@@ -13,7 +13,7 @@ require 'html_includes/sidebar.php';
 <p><span>Give feedback</span><textarea rows="8" cols="50"
 	name="feedback"></textarea></p>
 <p style="padding-top: 15px"><span>&nbsp;</span><input class="submit"
-	type="submit" name="fback" value="button" /></p>
+	type="submit" name="fback" value="Post" /></p>
 </div>
 </form>
 </div>
